@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  
+  .container h2 {
+    margin: 10px 0;
+  }
+  
+  .container form {
+    width: 100%;
+  }
+  
+  .container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .container input{
+    font-size: 25px;
+  }
+  .container input,
+  .container select,
+  .container textarea {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .container .radio-inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .container .radio {
+    margin-right: 10px;
+  }
+  
+  .container input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .container h4 {
+    margin-top: 20px;
+  }
+  
+  .container h4 a {
+    color: #4caf50;
+  }
+  
+  

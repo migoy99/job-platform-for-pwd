@@ -1,0 +1,55 @@
+.navbarHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px; 
+  }
+  
+  .navbarhome-left {
+    margin-left: 6.5%;
+    margin-right: auto;
+    display: flex;
+  }
+  
+  .navbarhome-right {
+    margin-left: auto;
+    margin-right: 10%;
+    justify-content: space-between;
+  }
+  
+  .homebutton1 {
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    z-index: 1;
+    color: #090909;
+    padding-left: 70%;
+    padding-right: 70%;
+    font-size: 15px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+  }
+  .homebutton2 {
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    z-index: 1;
+    color: #090909;
+    padding-left: 70%;
+    padding-right: 70%;
+    font-size: 15px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+  }
+  
+  
+  .homebutton2:hover {
+    color: #ffffff;
+    border: 1px solid #009087;
+  }
+  

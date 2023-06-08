@@ -1,0 +1,162 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.navbar-brand {
+    background: #009087;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.navbar-right {
+    margin-left: auto;
+    margin-right: 13.2%;
+    display: flex;
+
+}
+
+.navbar-left {
+    display: flex;
+    margin-left: 10%;
+    margin-right: auto;
+
+}
+
+.logo {
+    background-color: #009087;
+}
+
+.body {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 30px;
+}
+
+/* SEARCH BAR */
+.input {
+    margin-right: 4%;
+    margin-left: 4%;
+    width: 280px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.input::placeholder {
+    color: black;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: #009087;
+    background-color: #fff;
+}
+
+/* SEARCH BAR */
+
+
+/* LOGOUT BUTTON */
+.button2 {
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    z-index: 1;
+    color: #090909;
+    padding-left: 70%;
+    padding-right: 70%;
+    margin-top: 5px;
+    font-size: 15px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.button2:hover {
+    color: #ffffff;
+    border: 1px solid #009087;
+}
+/* LOGOUT BUTTON*/
+
+
+/* NOTIFICATION BUTTON */
+button {
+    margin-top: 5px;
+    background: #e8e8e8;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-right: 4%;
+    height: 50px;
+    ;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+button:hover {
+    background: #009087;
+    transition: 0.5s;
+}
+
+button svg {
+    color: black;
+}
+/* NOTIFICATION BUTTON */
+
+/* SEARCH AND OPTION DIV */
+.so-search{
+    flex: 1;
+    margin: 10px;
+}
+.so-radio{
+    flex: 1;
+    margin: 10px;
+}
+.search-and-option {
+    border-radius: 8px;
+    display: flex;
+    background-color: #c5c5c5;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SEARCH BAR */
+.searchjobs {
+    width: 100%;
+    font-size: 5;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+    flex: 1;
+}
+
+.searchjobs::placeholder {
+    color: black;
+}
+/* SEARCH BAR */
+/* SEARCH AND OPTION DIV */
+
+
+/* CATEGORY CONTAINER */
+
+
+/* CATEGORY CONTAINER */
